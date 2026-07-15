@@ -24,9 +24,9 @@ const identity = await verifyChain(bundle, anchors, { operationClass: "commit" }
 ```
 
 Network resolution (DNS TXT + `.well-known`) lives in
-[`@gentid/resolver`](https://github.com/010101G/gentid-resolver) and is injected — this package
+[`@gentid/resolver`](https://github.com/gentricai/gentid-resolver) and is injected — this package
 stays pure so any runtime can host it and any implementer can check it against the published
-[conformance test vectors](https://github.com/010101G/gentid/tree/main/spec/test-vectors).
+[conformance test vectors](https://github.com/gentricai/gentid/tree/main/spec/test-vectors).
 
 ```bash
 npm run build && npm test   # runs the full conformance suite
