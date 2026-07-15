@@ -1,0 +1,36 @@
+{
+  "name": "@gentid/core",
+  "version": "0.1.0",
+  "description": "GentID protocol core: formats, canonicalization, and pure verification. Zero runtime dependencies, zero network calls.",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node dist/test/run-vectors.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "gentid",
+    "identity",
+    "ai-agents",
+    "ed25519",
+    "federation",
+    "did"
+  ],
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/010101G/gentid-core.git"
+  },
+  "homepage": "https://gentid.com"
+}
